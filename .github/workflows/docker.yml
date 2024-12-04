@@ -19,6 +19,7 @@ on:
 
 jobs:
   docker:
+    environment: docker-login-env
     runs-on: ubuntu-latest
     steps:
       -
